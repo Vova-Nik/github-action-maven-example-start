@@ -1,17 +1,17 @@
 name: Maven CI/CD
 on:
  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+#    branches:
+#      - master
+#  pull_request:
+#    branches:
+#      - master
 
 jobs:
   build_and_test:
 
     runs-on: ubuntu-latest
-
+branche
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 11
